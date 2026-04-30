@@ -1397,7 +1397,7 @@ function renderSiteCard(site) {
     <head>
       <meta charset="UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>杨磊网址导航</title>
+      <title>挽风导航</title>
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet"/>
       <link rel="icon" href="https://blog520.de5.net/images/head/a.webp" type="image/webp"/>
       <script src="https://cdn.tailwindcss.com"></script>
@@ -1563,7 +1563,7 @@ function renderSiteCard(site) {
       <aside id="sidebar" class="sidebar fixed left-0 top-0 h-full w-64 bg-white shadow-lg z-50 overflow-y-auto mobile-sidebar lg:transform-none transition-all duration-300">
         <div class="p-6">
           <div class="flex items-center justify-between mb-8">
-            <h2 class="text-2xl font-bold text-primary-500">杨磊网址导航</h2>
+            <h2 class="text-2xl font-bold text-primary-500">挽风导航</h2>
             <button id="closeSidebar" class="p-1 rounded-full hover:bg-gray-100 lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -1630,7 +1630,7 @@ function renderSiteCard(site) {
           <div class="max-w-5xl mx-auto">
             <div class="flex flex-col md:flex-row items-center justify-center">
               <div class="text-center">
-                <h1 class="text-3xl md:text-4xl font-bold mb-2">杨磊网址导航</h1>
+                <h1 class="text-3xl md:text-4xl font-bold mb-2">挽风导航</h1>
                 <p class="text-primary-100 max-w-xl">分享优质网站，构建更美好的网络世界</p>
               </div>
             </div>
@@ -1650,7 +1650,7 @@ function renderSiteCard(site) {
                       .then(response => response.json())
                       .then(data => {
                        const hitokoto = document.getElementById('hitokoto_text')
-                      hitokoto.href = 'https://github.com/dp55542/Cloudflare-nav/?uuid=' + data.uuid
+                      hitokoto.href = 'https://github.com/yangleiily/Cloudflare-nav/?uuid=' + data.uuid
                       hitokoto.innerText = data.hitokoto
                       })
                       .catch(console.error)
@@ -1702,9 +1702,9 @@ function renderSiteCard(site) {
         <!-- 页脚 -->
         <footer class="bg-white py-8 px-6 mt-12 border-t border-gray-200">
           <div class="max-w-5xl mx-auto text-center">
-            <p class="text-gray-500">© ${new Date().getFullYear()} 杨磊网址导航 | 粤ICP备16023717号</p>
+            <p class="text-gray-500">© ${new Date().getFullYear()} 挽风导航 | 粤ICP备16023717号</p>
             <div class="mt-4 flex justify-center space-x-6">
-              <a href="https://github.com/dp55542/Cloudflare-nav/" target="_blank" class="text-gray-400 hover:text-primary-500 transition-colors">
+              <a href="https://github.com/yangleiily/Cloudflare-nav/" target="_blank" class="text-gray-400 hover:text-primary-500 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
