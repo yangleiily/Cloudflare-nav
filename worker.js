@@ -1631,7 +1631,7 @@ function renderSiteCard(site) {
             <div class="flex flex-col md:flex-row items-center justify-center">
               <div class="text-center">
                 <h1 class="text-3xl md:text-4xl font-bold mb-2">雅典娜</h1>
-                <p class="text-primary-100 max-w-xl">分享优质网站，构建更美好的网络世界</p>
+                <p class="text-primary-100 max-w-xl"></p>
               </div>
             </div>
           </div>
